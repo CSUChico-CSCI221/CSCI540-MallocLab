@@ -24,7 +24,7 @@ Your dynamic storage allocator will consist of the following four functions, whi
 </pre>
 
 The *mm.c* file we have given you implements the simplest but still functionally correct malloc package that we could think of. Using this as a starting place, modify these functions (and possibly define other private *static* functions), so that they obey the following semantics:
-
+
 * mm_init: Before calling *mm_malloc, mm_realloc* or *mm_free*, the application program (i.e., the trace-driven driver program that you will use to evaluate your implementation) calls *mm_init* to perform any necessary initializations, such as allocating the initial heap area. The return value should be -1 if there was a problem in performing the initialization, 0 otherwise.
 * mm_malloc: The *mm_malloc* routine returns a pointer to an allocated block payload of at least *size* bytes. The entire allocated block should lie within the heap region and should not overlap with any other allocated chunk.
 We will comparing your implementation to the version of *malloc* supplied in the standard C library (*libc*). Since the *libc* malloc always returns payload pointers that are aligned to 8 bytes, your malloc implementation should do likewise and always return 8-byte aligned pointers.
