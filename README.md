@@ -7,7 +7,7 @@ In this lab you will be writing a dynamic storage allocator for C programs, i.e.
 Any clarifications and revisions to the assignment will be posted on the course Piazza discussion board.
 
 ## Hand Out Instructions
-Download the *malloclab-handout.tar* file. Start by cloning the malloc assignment to a directory in which you plan to do your work. This will cause a number of files to be downloaded into the directory. The only file you will be modifying and handing in is *mm.c* file. The *mdriver.c* program is a driver program that allows you to evaluate the performance of your solution. Use the command *make* to generate the driver code and run it with the command *./mdriver -V*. (The *-V* flag displays helpful summary information.)
+Start by cloning the malloc assignment to a directory in which you plan to do your work, **do not fork this repo**. This will cause a number of files to be downloaded into the directory. The only file you will be modifying and handing in is *mm.c* file. The *mdriver.c* program is a driver program that allows you to evaluate the performance of your solution. Use the command *make* to generate the driver code and run it with the command *./mdriver -V*. (The *-V* flag displays helpful summary information.)
 
 Looking at the file *mm.c* you’ll notice a C structure team into which you should insert the requested identifying information about yourself. Do this right away so you don’t forget.
 
